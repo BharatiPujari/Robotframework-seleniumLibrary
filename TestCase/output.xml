@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 5.0.1 (Python 3.9.12 on win32)" generated="20220910 22:03:32.841" rpa="false" schemaversion="3">
+<suite id="s1" name="File" source="C:\Users\bhara\PycharmProjects\RobotframeworkAutomation\TestCase\file.robot">
+<test id="s1-t1" name="To verify the user able to login" line="9">
+<kw name="Start Browser Login">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>${Url}</arg>
+<arg>${Browser}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20220910 22:03:33.220" level="INFO">Opening browser 'Chrome' to base url 'https://test.bethel.market/'.</msg>
+<status status="PASS" starttime="20220910 22:03:33.220" endtime="20220910 22:03:35.609"/>
+</kw>
+<kw name="Click Button" library="SeleniumLibrary">
+<arg>xpath://*[@id="__next"]/div[1]/div[1]/header/div[1]/div[2]/button</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<msg timestamp="20220910 22:03:35.611" level="INFO">Clicking button 'xpath://*[@id="__next"]/div[1]/div[1]/header/div[1]/div[2]/button'.</msg>
+<status status="PASS" starttime="20220910 22:03:35.610" endtime="20220910 22:03:35.822"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>xpath://*[@id="basic-menu"]/div[3]/ul/li</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20220910 22:03:35.823" level="INFO">Clicking element 'xpath://*[@id="basic-menu"]/div[3]/ul/li'.</msg>
+<status status="PASS" starttime="20220910 22:03:35.822" endtime="20220910 22:03:35.954"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>3</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20220910 22:03:38.969" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" starttime="20220910 22:03:35.954" endtime="20220910 22:03:38.969"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>name:phone</arg>
+<arg>8792633125</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20220910 22:03:38.970" level="INFO">Typing text '8792633125' into text field 'name:phone'.</msg>
+<status status="PASS" starttime="20220910 22:03:38.970" endtime="20220910 22:03:39.185"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>name:password</arg>
+<arg>qwe</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20220910 22:03:39.186" level="INFO">Typing text 'qwe' into text field 'name:password'.</msg>
+<status status="PASS" starttime="20220910 22:03:39.185" endtime="20220910 22:03:39.342"/>
+</kw>
+<kw name="Click Button" library="SeleniumLibrary">
+<arg>xpath://*[@id="__next"]/div/div/div[3]/button</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<msg timestamp="20220910 22:03:39.343" level="INFO">Clicking button 'xpath://*[@id="__next"]/div/div/div[3]/button'.</msg>
+<status status="PASS" starttime="20220910 22:03:39.342" endtime="20220910 22:03:39.451"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>6</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20220910 22:03:45.458" level="INFO">Slept 6 seconds</msg>
+<status status="PASS" starttime="20220910 22:03:39.451" endtime="20220910 22:03:45.458"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>xpath://*[@id="__next"]/div[1]/div[1]/header/div[1]/div[2]/button</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20220910 22:03:45.459" level="INFO">Clicking element 'xpath://*[@id="__next"]/div[1]/div[1]/header/div[1]/div[2]/button'.</msg>
+<status status="PASS" starttime="20220910 22:03:45.458" endtime="20220910 22:03:45.572"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>5</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20220910 22:03:50.577" level="INFO">Slept 5 seconds</msg>
+<status status="PASS" starttime="20220910 22:03:45.573" endtime="20220910 22:03:50.581"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>xpath://*[@id="basic-menu"]/div[3]/ul/li[1]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20220910 22:03:50.582" level="INFO">Clicking element 'xpath://*[@id="basic-menu"]/div[3]/ul/li[1]'.</msg>
+<status status="PASS" starttime="20220910 22:03:50.581" endtime="20220910 22:03:50.994"/>
+</kw>
+<status status="PASS" starttime="20220910 22:03:33.219" endtime="20220910 22:03:50.994"/>
+</kw>
+<status status="PASS" starttime="20220910 22:03:33.218" endtime="20220910 22:03:50.996"/>
+</test>
+<status status="PASS" starttime="20220910 22:03:32.842" endtime="20220910 22:03:50.997"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="File">File</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
